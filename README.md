@@ -1,4 +1,4 @@
-Mi configuración para NeoVim. Requiere instalar primero vim-plug (github.com/junegunn/vim-plug)
+Mi configuración para NeoVim. Requiere instalar primero  [vim-plug](https://github.com/junegunn/vim-plug)
 
 
 # Windows
