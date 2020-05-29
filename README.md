@@ -1,5 +1,8 @@
-Mi configuración para NeoVim. Requiere instalar primero  [vim-plug](https://github.com/junegunn/vim-plug)
+Mi configuración para NeoVim. Requiere instalar primero  [vim-plug](https://github.com/junegunn/vim-plug).  
 
+Si los plugins de python dan error, ejecutar en terminal:
+
+    python -m pip install --user --upgrade pynvim
 
 # Windows
 Poner el archivo en (sino existe la ruta crearla):
