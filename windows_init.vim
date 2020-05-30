@@ -1,6 +1,7 @@
 syntax on
 
 set guicursor=
+set clipboard=unnamed
 set showmatch
 set relativenumber
 set nohlsearch
@@ -22,11 +23,11 @@ set scrolloff=8
 set mouse=a
 set showcmd
 set encoding=utf-8
+set noshowmode
 set sw=2
 set ruler
 set relativenumber
 set cursorline
-
 
 " Give more space for displaying messages.
 set cmdheight=2
@@ -54,13 +55,11 @@ Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
 Plug 'easymotion/vim-easymotion'
 
-
 " THEMES
 Plug 'morhetz/gruvbox'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'vim-airline/vim-airline'
 Plug 'flazz/vim-colorschemes'
-Plug '/home/mpaulson/personal/vim-be-good'
 
 call plug#end()
 
@@ -103,7 +102,7 @@ nmap <Leader>s <Plug>(easymotion-s2)
 nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
-nmap <Leader>qq :q!<CR>
+nmap <Leader>fq :q!<CR>
 
 "END MY BINDS
 
