@@ -42,7 +42,7 @@ set shortmess+=c
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
-" call plug#begin('~/.vim/plugged) " Linux
+" call plug#begin('~/.local/share/nvim/plugged') " Linux
 call plug#begin('~/AppData/Local/vim/Plugged') " windows
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
